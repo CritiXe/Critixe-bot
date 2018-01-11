@@ -40,7 +40,7 @@ client.on('message', message => {
   }
   
   if (message.content === '!rollYes') {
-    if (message.author.username === "Happygator4723"){
+    if (message.author.username === "CritiXe"){
       message.reply('You roll ' + String(Math.floor(Math.random() * 9001) + 1000) )  
     } else {
       message.reply("You roll 0") 
